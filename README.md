@@ -30,4 +30,4 @@ La apariencia de la web es la siguiente:
 
 Juan Montañez Palomino - juanmonpa88@gmail.com
 
-Link del Projecto: [https://github.com/juanMontanez/CoffeeCor.git](git remote add origin https://github.com/juanMontanez/CoffeeCor)
+Link del Projecto: [https://github.com/juanMontanez/CoffeeCor](git remote add origin https://github.com/juanMontanez/CoffeeCor)
