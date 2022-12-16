@@ -1,10 +1,10 @@
-# WishList
+# Web CoffeeCor
 <p align="center">
     Web de venta de café de la empresa CoffeeCor
     <br />
 </p>
 
-## Lenguages/Frameworks que se usarón para el desarrollo de este proyecto:
+## Lenguajes/Frameworks que se usarón para el desarrollo de este proyecto:
 Se utilizó el framework `bootstrap` y `SCSS` para el estilo y animaciones.
 
 ## Requisitos
