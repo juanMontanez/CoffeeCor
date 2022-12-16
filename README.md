@@ -17,9 +17,9 @@ http://coffeecor.duckdns.org
 *Solo accesible si está la máquina de AWS arrancada.
 
 ## Uso
-La página cuenta cuenta con un menu responsive en la cabecera en el que podemos acceder a todas las vistas de la página entre las que se encuentran: Inicio, Productos, Sobre Nosotros, Iniciar Sesión, Registrarse, Cerrar Sesión y Carrito de compras.
+La página cuenta con un menu responsive en la cabecera en el que podemos acceder a todas las vistas de la página entre las que se encuentran: Inicio, Productos, Sobre Nosotros, Iniciar Sesión, Registrarse, Cerrar Sesión y Carrito de compras.
 
-En el pie de página contamos con el enlace a las preguntas frecuentes para resolver las dudas más comunes 
+En el pie de página contamos con el enlace a las preguntas frecuentes para resolver las dudas más comunes. 
 
 
 La apariencia de la web es la siguiente:
