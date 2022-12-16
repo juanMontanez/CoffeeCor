@@ -24,7 +24,7 @@ var gulpSSH = new GulpSSH({
 
 //Tarea para clonar el contenido del repositorio git
 function gitclone(cb) {
-  exec('git clone https://github.com/juanMontanez/Cv-Sass.git desarrollo/', function (err, stdout, stderr) {
+  exec('git clone https://github.com/juanMontanez/CoffeeCor.git desarrollo/', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);
@@ -45,12 +45,12 @@ var sourceFiles = [
 ];
 var destination = "./produccion";
 
-//Tarea para copiar todo el contenido de la carpeta desarrollo cuyos ficheros sean jpg, png, html y js
+//Tarea para copiar todo el contenido de la carpeta img y los html
 function copiar() {
   return (
     gulp
       .src(sourceFiles)
-      //Copiamos a destino con parametro prefix:1 para que no copie la carpeta origen y solo su contenido
+      //Copiamos a destino con parametro prefix:0 para que copie la carpeta origen y su contenido
       .pipe(gulpCopy(destination, { prefix: 0 }))
   );
 }
@@ -112,7 +112,7 @@ exports.gitpush = gitpush;
 exports.conexionawsgit = conexionawsgit;
 exports.despliegueawsdocker = despliegueawsdocker;
 
-//Creamos varias listas de tareas en serie
+//Creamos dos listas de tareas en serie
 //Si solo poseemos el fichero gulpfile.js ejecutamos esta tarea
 exports.toDo = series(gitclone,copiar,generar,gensassdoc,gitadd,gitcommit,gitpush,conexionawsgit,despliegueawsdocker);
 
