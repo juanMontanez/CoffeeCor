@@ -12,7 +12,9 @@ Navegador compatible con js y tener conexión a internet.
 
 ## Dirección Web
 
-http://coffeecor.duckdns.org
+http://coffeecor.duckdns.org 
+
+*Solo accesible si está la máquina de AWS arrancada.
 
 ## Uso
 La página cuenta cuenta con un menu responsive en la cabecera en el que podemos acceder a todas las vistas de la página entre las que se encuentran: Inicio, Productos, Sobre Nosotros, Iniciar Sesión, Registrarse, Cerrar Sesión y Carrito de compras.
